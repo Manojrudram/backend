@@ -24,7 +24,7 @@ app.set('superSecret',config.secret);
 router.post('/test', function(req, res, next) {
 
 	    var message = {
-        to: 'dwvZUxVcmdU:APA91bE2SNJSnZjGGx_SG2lkPo3r1stLsCINDdINP3BA1nbkbtis-GUTWH3CtjGgr2VPDsiYqwrl61Yz2jeh_YRf7-t2yhWtanz4Y-WGk3oVdIsK2wtVQUqE4x1pv6M-dg8JdRLdr1iE', // required fill with device token or topics
+        to: 'dFbkEIM1HMQ:APA91bFJsOu3TRieLMRUHBWrw053n9BcfvsoJj543fP7puJPZVl4l_WStfNjYwQxOZ9KWsJnBsZW-97Sj6d3WDmWKAe9Izow-xl92UBbUom3D1HcZd0b15jHOfV9KbfVfq0WfhipY5Np', // required fill with device token or topics
         //collapse_key: 'your_collapse_key', 
         data: {
         	   id: req.body.id,
