@@ -31,7 +31,8 @@ router.post('/test', function(req, res, next) {
             page: req.body.type
         },
         notification: {
-            title: 'Kutit'
+            title: 'Kurnool Aachars Chintana',
+            body: req.body.type
         
         }
     };
